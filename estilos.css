@@ -1,0 +1,60 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Azul claro de fundo */
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    color: #1e3a8a; /* Cor azul escuro */
+    text-align: center;
+}
+
+/* Estilos para a tabela */
+.tabela-dados {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tabela-dados th, .tabela-dados td {
+    border: 1px solid #b0c4de; /* Azul claro */
+    padding: 12px;
+    text-align: left;
+}
+
+.tabela-dados th {
+    background-color: #1e3a8a; /* Azul escuro */
+    color: white;
+}
+
+.tabela-dados tr:nth-child(even) {
+    background-color: #e6f0ff; /* Azul claro para alternar as linhas */
+}
+
+.tabela-dados tr:hover {
+    background-color: #cce4ff; /* Azul mais claro para hover */
+}
+
+/* Container do conteúdo */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilo para botões */
+.btn {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #3b82f6; /* Azul mais claro */
+}
